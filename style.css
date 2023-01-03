@@ -1,0 +1,67 @@
+
+
+#sales{
+    text-align: center;
+}
+
+
+#box{
+    padding-top: 10%;
+}
+
+.card-footer{
+    background-color:  #f8f9fa;
+    text-align: center;
+}
+
+.zip{
+    text-align: center;
+
+}
+
+
+#salez{
+    text-align: center;
+    padding-top: 3%;
+    
+}
+
+
+
+/* version 2 */
+
+/* centers both elements horizontaly and verticaly with a small buffer in between*/
+
+#box2{
+   padding-top: 15%;
+   margin: auto;
+   width: 90%;
+   text-align: center;
+   
+
+
+}
+
+#week1{
+    text-align: center;
+    padding-left: 1.5%;
+    width: auto;
+
+}
+
+#centerBox{
+    margin: auto;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
