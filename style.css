@@ -1,59 +1,105 @@
 
 
-#sales{
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  #wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+  }
+  
+  .card {
+    margin: 10px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .card-header, .card-footer {
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  .card-footer {
     text-align: center;
-}
-
-
-#box{
-    padding-top: 10%;
-}
-
-.card-footer{
-    background-color:  #f8f9fa;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  /* form elements style */
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* buttons */
+  button.btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  button.btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* footer */
+  footer {
+    background-color: black;
+    color: white;
     text-align: center;
-}
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* responsive Design */
+  @media (max-width: 768px) {
+    #wrapper {
+      flex-direction: column;
+    }
+  }
 
-.zip{
+
+  /* Header Styles */
+header {
+    background-color: #007bff; 
+    color: white;
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem; 
     text-align: center;
-
-}
-
-
-#salez{
-    text-align: center;
-    padding-top: 3%;
-    
-}
-
-
-
-/* version 2 */
-
-/* centers both elements horizontaly and verticaly with a small buffer in between*/
-
-#box2{
-   padding-top: 15%;
-   margin: auto;
-   width: 90%;
-   text-align: center;
-   
-
-
-}
-
-#week1{
-    text-align: center;
-    
-    
-
-}
-
-#centerBox{
-    margin: auto;
-    text-align: center;
-}
-
+  }
+  
+  /* Media Q for header*/
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 2rem; 
+    }
+  }
+  
+  
 
 
 
