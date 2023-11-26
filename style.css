@@ -21,6 +21,7 @@ body {
   }
   
   .card-header, .card-footer {
+    text-align: center;
     background-color: #f8f9fa;
     color: #333;
   }
@@ -35,12 +36,13 @@ body {
   
   /* form elements style */
   input[type="text"] {
-    width: 100%;
+    width: 350px;
     padding: 10px;
     margin: 10px 0;
     border: 1px solid #ddd;
     border-radius: 4px;
     box-sizing: border-box;
+    text-align: center;
   }
   
   /* buttons */
